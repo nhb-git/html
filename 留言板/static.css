@@ -1,0 +1,57 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.message-panel{
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.message-panel h3{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    background-color: green;
+}
+
+.message-panel .name{
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 20% 3px 10%;
+}
+
+.message-panel .email{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 20% 3px 10%;
+}
+
+.message-panel .submit{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 23%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message-panel .submit input{
+    display: block;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.message-panel .submit input:hover{
+    color: gray;
+}
